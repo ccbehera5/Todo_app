@@ -23,14 +23,14 @@
             
             {% if request.user.is_authenticated %}
             <li class="nav-item">
-              <a class="nav-link" href="/logout">LogOut</a>
+              <a class="nav-link active" href="/logout">LogOut</a>
             </li>
             {% else %}
             <li class="nav-item">
-              <a class="nav-link" href="/login">Login</a>
+              <a class="nav-link active" href="/login">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/signup">SignUp</a>
+              <a class="nav-link active" href="/signup">SignUp</a>
             </li>
             {% endif %}
             
